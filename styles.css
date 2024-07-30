@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#library {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.book-card h3 {
+    margin: 0 0 10px;
+}
+
+.book-card p {
+    margin: 5px 0;
+}
+
+.book-card button {
+    margin-right: 5px;
+}
+
+#newBookBtn {
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: none;
+    margin-bottom: 20px;
+}
+
+#newBookForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
